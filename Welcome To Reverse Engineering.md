@@ -1,4 +1,4 @@
-# Welcome to Reverse Engineering
+# Welcome To Reverse Engineering
 
 **Task Description** : 
 ____________________________________________________________________________________________________________
@@ -9,7 +9,7 @@ ________________________________________________________________________________
 
 **Attachement** : [Welcome](WELCOME) 
 
-#Solution 
+# Solution 
 ____________________________________________________________________________________________________________
 
 This task is an introduction to the Reverse category . Players only need to run the `strings` command on the binary and have the flag mirroir reversed. 
