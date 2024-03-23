@@ -29,9 +29,9 @@ This circuit does a conversion from normal binary to Gray binary.
 
 ![image](https://github.com/Garroura/Writeups/assets/164345052/62834648-9039-4c43-9a8c-7d5349af8b86)
 
-Although not of the players made it to know exactly the conversion type , most of them tried to reverse the code ( the xor operation ) . Honestly it is not the intended way of solving the chall , i wanted to highlight the gray binary as it is commonly used in the embedded systems.
+Although not all players managed to determine the exact conversion type, most of them tried to reverse the code (the XOR operation). Honestly, it is not the intended way of solving the challenge; I wanted to highlight the Gray binary as it is commonly used in embedded systems.
 
-Now , all what you have to do is to move from gray code ( output) to the binary to get the flag.
+Now, all you have to do is to move from Gray code (output) to binary to get the flag.
 
 ![image](https://github.com/Garroura/Writeups/assets/164345052/1beddeb3-2407-4ea6-8abb-398c6ea6c7f1)
 
@@ -54,5 +54,5 @@ print("Flag : ", flag)
 
 ````
          Binary: 0101001101110000011000010111001001101011011110110100110000110000001101100100100101000011001101000100110001011111010001110011010001010100001100110101001101011111010101000011010001001011001100110101111101010011001100000101111101001101010101010100001101001000010111110101010000110000010111110101010101001110010001000011001101010010001101010101010000110100010011100100010001111101
-        Flag :  Spark{L06IC4L_G4T3S_T4K3_S0_MUCH_T0_UND3R5T4ND}
+         Flag :  Spark{L06IC4L_G4T3S_T4K3_S0_MUCH_T0_UND3R5T4ND}
 
