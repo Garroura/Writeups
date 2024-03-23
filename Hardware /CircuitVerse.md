@@ -2,10 +2,12 @@
 
 **Task Description** :  
 ____________________________________________________________________________________________________________
-Sometimes, you're asked to make a decision: either choose 0 (white) or 1 (black). Honestly, I might opt for something in between!\r\n\r\nWhat you have here is a simple binary conversion. Retrieve the flag!
+Sometimes, you're asked to make a decision: either choose 0 (white) or 1 (black). Honestly, I might opt for something in between!
+
+What you have here is a simple binary conversion. Retrieve the flag!
 ____________________________________________________________________________________________________________
 
-**Attachement** : [Circuit]() 
+**Attachement** : [Circuit](SPARKYSPARKYY.cv) 
 [Output]()
 
 # Solution 
@@ -34,3 +36,23 @@ Now , all what you have to do is to move from gray code ( output) to the binary 
 ![image](https://github.com/Garroura/Writeups/assets/164345052/1beddeb3-2407-4ea6-8abb-398c6ea6c7f1)
 
 Here is a solver in python : 
+````
+def gray_to_binary(gray):
+    binary = gray[0]
+    for i in range(1, len(gray)):
+        binary += str(int(binary[i-1]) ^ int(gray[i]))
+    return binary
+gray_sequence = "0111101011001000010100011100101101011110110001101110101000101000001011010110110111100010101011100110101001110000111001001010111001111110001010101111101011110000111111100010111001101110101010101111000011111010101010000111000011101011111111111110001011101100011100001111111000101000011100001111111111101001011001100010101011111011001011111111111000101110011010010110011001000011"
+binary_code = gray_to_binary(gray_sequence)
+print("Binary:", binary_code)
+flag = ""
+for i in range(0, len(binary_code), 8):
+    byte = binary_code[i:i+8]
+    flag += chr(int(byte, 2))
+
+print("Flag : ", flag)
+
+````
+         Binary: 0101001101110000011000010111001001101011011110110100110000110000001101100100100101000011001101000100110001011111010001110011010001010100001100110101001101011111010101000011010001001011001100110101111101010011001100000101111101001101010101010100001101001000010111110101010000110000010111110101010101001110010001000011001101010010001101010101010000110100010011100100010001111101
+        Flag :  Spark{L06IC4L_G4T3S_T4K3_S0_MUCH_T0_UND3R5T4ND}
+
