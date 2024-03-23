@@ -12,8 +12,8 @@ ________________________________________________________________________________
 
 # Solution 
 ____________________________________________________________________________________________________________
-Let's start with the challenge name which is "CircuitVerse" which is an online digital logic circuit simulator.
-Players were provided with a .cv file and an output.txt , most of the players weren't able to know how to do open this file while the hint was in the task name. The website is online and free and doesn't require any registration so players can import the .cv file to see the circuit. 
+Let's start with the challenge name, "CircuitVerse", which is an online digital logic circuit simulator.
+Players were provided with a .cv file and an output.txt. Most of the players weren't able to  open this file while the hint was in the task name. The website is online, free and doesn't require any registration so players can import the .cv file to see the circuit. 
 
 ![image](https://github.com/Garroura/Writeups/assets/164345052/66186f72-b18b-485a-9719-23086d495edf)
 
@@ -22,7 +22,7 @@ Players were provided with a .cv file and an output.txt , most of the players we
 ![image](https://github.com/Garroura/Writeups/assets/164345052/b24ecc63-e798-4c32-b518-6aba03902a27)
 
 
-The second hint , is in the description , as it says it's a simple binary conversion , and it's between black and white ( which is the same name of the circuit ) . I was trying to hint players for the coulors "Grey" .
+The second hint , is in the description , as it says it's a simple binary conversion , and it's between black and white ( which is the same name as the circuit ) .  I was hinting to players about the colors "Grey".
 
 This circuit does a conversion from normal binary to Gray binary. 
 
