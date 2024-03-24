@@ -8,8 +8,8 @@ You all now can admit that I forget a lot... For this one, I wanted to make a ve
 ____________________________________________________________________________________________________________
 
 **Attachement** : 
-[ASS](ASS.s) 
-[Output](output.txt)
+[ASS](/Files/ASS.s) 
+[Output](/Files/output.txt)
 
 # Solution 
 ____________________________________________________________________________________________________________
