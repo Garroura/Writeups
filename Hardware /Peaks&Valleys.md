@@ -1,6 +1,6 @@
 # Peaks&Valleys
 
-**Task Description** :  
+**Task Description** :   
 ____________________________________________________________________________________________________________
 My friend `R[u]DY` believes someone is listening to us! He used that blue card and a LED to send me a message, but I couldn't understand what he wanted to say.
 
