@@ -1,7 +1,7 @@
 # CircuitVerse
 
 **Task Description** :  
-____________________________________________________________________________________________________________
+____________________________________________________________________________________________________________ 
 Sometimes, you're asked to make a decision: either choose 0 (white) or 1 (black). Honestly, I might opt for something in between!
 
 What you have here is a simple binary conversion. Retrieve the flag!
