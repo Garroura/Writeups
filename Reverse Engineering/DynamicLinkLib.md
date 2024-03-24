@@ -4,7 +4,7 @@
 ____________________________________________________________________________________________________________
 
 I wrote some code to obfuscate my data, and instead of compiling it into a binary, I created this file!!! Can you help me retrieve my initial data?
-
+ 
 ____________________________________________________________________________________________________________
 
 **Attachement** :
