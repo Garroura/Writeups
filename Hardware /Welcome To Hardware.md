@@ -1,5 +1,5 @@
 # Welcome To Hardware
-
+ 
 **Task Description** :  
 ____________________________________________________________________________________________________________
 I have a friend named Rudy who is incredibly passionate about electronics and embedded systems. Recently, he purchased an LCD, a blue card, and some cables. All I hear him talk about are zeros and ones. He asked me to START.. I'm feeling quite lost here..
