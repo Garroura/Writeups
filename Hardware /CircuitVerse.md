@@ -35,6 +35,8 @@ Now, all you have to do is to move from Gray code (output) to binary to get the 
 
 ![image](https://github.com/Garroura/Writeups/assets/164345052/1beddeb3-2407-4ea6-8abb-398c6ea6c7f1)
 
+The task was solved by 13 teams out of 119 teams registered in this online CTF.
+
 Here is a solver in python : 
 ````
 def gray_to_binary(gray):
