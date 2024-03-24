@@ -7,7 +7,7 @@ My friend Rouissi asked me to welcome players, So I made this binary for you! Ho
 
 ____________________________________________________________________________________________________________
 
-**Attachement** : [Welcome](WELCOME) 
+**Attachement** : [Welcome](/Files/WELCOME) 
 
 # Solution 
 ____________________________________________________________________________________________________________
