@@ -24,7 +24,7 @@ Analyzing the code, the main function moves the hidden ID "XXXXXXXXX" to a local
 The ``func`` performes the following operations:
 * Moves the first argument ( which is the ID ) to DWORD PTR -20[rbp].
 * Moves this value to the eax.
-* Calls the ``cdqe`` which * stands for 'Convert Doubleword to Quadword Extended' (passing from eax to rax) .
+* Calls the ``cdqe`` which  stands for 'Convert Doubleword to Quadword Extended' (passing from eax to rax) .
 * Shifts rax left by 3 bits (equivalent to multiplying rax by 8).
 * Moves the rax content to the QWORD PTR -8[rbp].
 * Performs an xor operation with 5 for the QWORD PTR -8[rbp].
@@ -32,6 +32,8 @@ The ``func`` performes the following operations:
 * Sets al to 1 if equal, 0 otherwise.
 * stores the result of the function call in another local variable and prints it using ``printf``.
 Analyzing the Output.txt file and the ``.rodata`` , we observe that the main function prints 1 as a result of the comparison. Players are tasked with retrieving the ID by reversing the code.
+
+The task was solved by 15 teams out of 119 teams registered in this online CTF.
 
 Here is a one-liner solution using Python:
 ``print(int((5934314573^5)/8))``
