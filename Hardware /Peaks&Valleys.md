@@ -12,7 +12,7 @@ ________________________________________________________________________________
 Starting with the task name "Peaks&Valleys" , which means highs and lows ( in our case 1 and 0 ).
 Players are provided with a Wokwi simualtion circuit , an Arduino card with a led . 
 Looking at the task description , it says that we are trying to send a mesasge in a hidden way. 
-Analyzing the code in teh ``sketch.ino`` we can see 'HIGH' and 'LOW' states of the led with the same delay ( so it can not be a Morse code as many players thought).
+Analyzing the code in the ``sketch.ino`` we can see 'HIGH' and 'LOW' states of the led with the same delay ( so it can not be a Morse code as many players thought).
 
 ![image](https://github.com/Garroura/Writeups/assets/164345052/9c431643-54f0-4228-a061-b098716b9c12)
 
@@ -34,7 +34,7 @@ for i in range(0, len(binary), 8):
 
 print("Flag : ", flag)
 ````
-The loop.txt file contains the code from the void loop() function from the sketch.ino code.
+The loop.txt file contains the code from the ``void loop()`` function from the ``sketch.ino`` code.
 
 
             Binary:  01010011011100000110000101110010011010110111101101001001010111110100010000110000011011100111010001010100010111110111011100110100011011100101010001011111001101000110111001111001001100000110111000110011010111110101010000110000010111110100100000110011011000010111001001011111010101010111001101111101
