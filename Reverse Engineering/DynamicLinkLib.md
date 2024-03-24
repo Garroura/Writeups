@@ -8,8 +8,8 @@ I wrote some code to obfuscate my data, and instead of compiling it into a binar
 ____________________________________________________________________________________________________________
 
 **Attachement** :
-[Seek_Help.dll](Binary) 
-[Output](output.txt)
+[Seek_Help.dll](/Files/Seek_help.dll) 
+[Output](:Files/OutputDLL.txt)
 
 # Solution 
 ____________________________________________________________________________________________________________
