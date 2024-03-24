@@ -12,7 +12,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________
 The task revolves around exploiting  the `strcmp` vulnerability in the <string.h> library in C coding. 
 
-Running the `file` command on the binary , it shows that it's not stripped allowing players can use any decompiler such as [Dogbolt](https://dogbolt.org) online or IDA. 
+Running the `file` command on the binary , it shows that it's not stripped allowing players to use any decompiler such as [Dogbolt](https://dogbolt.org) online or IDA. 
 
 Analyzing the code , two functions which are `shuffleString` & `encrypt` are used to generate the password ( as mentioned in the challenge description ).
 
